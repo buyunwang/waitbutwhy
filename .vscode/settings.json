@@ -2,5 +2,7 @@
     "cSpell.words": [
         "flavorizr",
         "waitbutwhy"
-    ]
+    ],
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true
 }
