@@ -86,28 +86,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-flavorizr:
-  app:
-    android:
-      flavorDimensions: "flavor-type"
-    ios:
-
-  flavors:
-    dev:
-      app:
-        name: "Waitbutwhy Dev"
-
-      android:
-        applicationId: "com.waitbutwhy.dev"
-
-      ios:
-        bundleId: "com.waitbutwhy.dev"
-
-    prod:
-      app:
-        name: "Waitbutwhy Prod"
-
-      android:
-        applicationId: "com.waitbutwhy.prod"
-      ios:
-        bundleId: "com.waitbutwhy.prod"

@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import '../../../flavors.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(F.title),
+        title: Text('Flutter Demo Home Page'),
       ),
       body: Center(
         child: Text(
-          'Hello ${F.title}',
+          'Hello }',
         ),
       ),
     );

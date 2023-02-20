@@ -1,14 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import 'flavors.dart';
 import './features/presentation/pages/my_home_page.dart';
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: F.title,
+      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -27,7 +26,7 @@ class App extends StatelessWidget {
           ? Banner(
               child: child,
               location: BannerLocation.topStart,
-              message: F.name,
+              message: 'DEV',
               color: Colors.green.withOpacity(0.6),
               textStyle: TextStyle(
                   fontWeight: FontWeight.w700,
